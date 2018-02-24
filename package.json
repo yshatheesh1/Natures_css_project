@@ -1,0 +1,14 @@
+{
+  "name": "natures",
+  "version": "1.0.0",
+  "description": "Landing page for natures",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "satheesh yadava",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
