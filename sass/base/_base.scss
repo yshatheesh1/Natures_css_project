@@ -7,10 +7,31 @@ box-sizing: inherit;
 }
 
 html{
-    font-size: 62.5%; // 1 rem = 10 px , so 16 px becomes 16/10 %
+    font-size: 62.5%; 
+    // 1 rem = 16 px , so 10 px becomes 10/16 %
+    // 8px becomes 8/16 - 50%;
+    //
+   
+   
+    @include respond-phone(tab-land){
+        font-size: 56.25%; // 9px
+    }
+    @include respond-phone(tab-port){
+        font-size: 50%; // 8px
+    }
+    @include respond-phone(phone){
+        font-size: 50%; 
+    }
+    @include respond-phone(big-desktop){
+        font-size: 75%; //12px
+    }
 }
 
 body{
     box-sizing: border-box;
     padding: 3rem;
+
+    @include respond-phone(tab-port){
+        padding: 0;
+    }
 }
