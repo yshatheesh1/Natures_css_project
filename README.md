@@ -1,5 +1,5 @@
 Advanced CSS Concepts:
-<pre>
+
 Making an element center relative to parent element
 <pre>
 <div class="header">
@@ -74,4 +74,3 @@ clip-path: X Y
  clip-path: polygon(0 0,100% 0,100% 85%,0,100%);
  -webkit-clip-path: polygon(0 0,100% 0,100% 85%,0,100%);
 
-</pre>
