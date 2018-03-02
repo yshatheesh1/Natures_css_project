@@ -44,7 +44,7 @@ overflow-hidden : makes element fit into section, avoids overflow outside of sec
 <div class="section">
 <div class="bg-video"><video class="bg-video-content" autoplay loop></video></div>
 <div class="row">
-...something....
+something
 </div>
 </div>
 
