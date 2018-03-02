@@ -1,10 +1,11 @@
 Advanced CSS Concepts:
 <pre>
 Making an element center relative to parent element
-
+<pre>
 <div class="header">
 <div class="header-text">hello</div>
-</div>
+</div
+</pre>
 
 .header{
     position : relative;
@@ -17,7 +18,9 @@ Making an element center relative to parent element
 }
 
 Fill background image in a container
+<pre>
 <div class="hello">....something...</div>
+</pre>
 .hello{
     background-image : linear-gradient(to right bottom,rgba(red,0.8),rgba(green,0.8)),url('../img.png');
     background-size: cover;
@@ -39,14 +42,14 @@ padding: 50px 25px
 Place a section elements on top of image or video
 overflow-hidden : makes element fit into section, avoids overflow outside of section
 
-
+<pre>
 <div class="section">
 <div class="bg-video"><video class="bg-video-content" autoplay loop></video></div>
 <div class="row">
 ...something....
 </div>
 </div>
-
+</pre>
 .section{
     position:relative;
 }
