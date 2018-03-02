@@ -1,13 +1,11 @@
 Advanced CSS Concepts:
-
-Making an element center relative to parent element
 <pre>
+Making an element center relative to parent element
+
 <div class="header">
 <div class="header-text">hello</div>
 </div>
 
-</pre>
-<pre>
 .header{
     position : relative;
     &-text{
@@ -17,20 +15,14 @@ Making an element center relative to parent element
         transform: translateX(-50%)
     }
 }
-</pre>
 
 Fill background image in a container
-<pre>
 <div class="hello">....something...</div>
-</pre>
-
-<pre>
 .hello{
     background-image : linear-gradient(to right bottom,rgba(red,0.8),rgba(green,0.8)),url('../img.png');
     background-size: cover;
     background-position:top;
 }
-</pre>
 
 properties with one value two value and four values
 
@@ -47,16 +39,14 @@ padding: 50px 25px
 Place a section elements on top of image or video
 overflow-hidden : makes element fit into section, avoids overflow outside of section
 
-<pre>
+
 <div class="section">
 <div class="bg-video"><video class="bg-video-content" autoplay loop></video></div>
 <div class="row">
-something
+...something....
 </div>
 </div>
-</pre>
 
-<pre>
 .section{
     position:relative;
 }
